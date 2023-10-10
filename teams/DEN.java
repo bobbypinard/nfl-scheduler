@@ -1,5 +1,5 @@
 
-public class DEN extends team{
+public class DEN extends Team{
   
   public static void main(String args[]){
     String id = "DEN";

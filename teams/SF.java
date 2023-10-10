@@ -2,7 +2,7 @@
 public class SF extends Team{
 
   public static void main(String args[]){
-    String id = "SF"
+    String id = "SF";
     String name = "San Francisco 49ers";
     String location = "Santa Clara, CA";
     String stadium = "Levi's Stadium";
