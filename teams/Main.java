@@ -3,9 +3,11 @@ import java.util.*;
 public class Main {
   public static void main(String args[]){
     Week[] season = new Week[18];
+
     int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
     Scheduler schedule = new Scheduler();
     arr = schedule.fisherYates(arr);
+
     for(int i: arr){
       System.out.println(i);
     }
