@@ -3,8 +3,12 @@ import java.util.*;
 public class Main {
   public static void main(String args[]){
     Week[] season = new Week[18];
-    //season[6].setWeekNumber(6);
-    //System.out.println(season[6].getWeekNumber());
+    int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    Scheduler schedule = new Scheduler();
+    arr = schedule.fisherYates(arr);
+    for(int i: arr){
+      System.out.println(i);
+    }
 
     for(int i = 0; i < season.length; i++){
       season[i] = new Week();
@@ -14,8 +18,5 @@ public class Main {
       System.out.println(season[i].toString());
     }
 
-    //for(int i = 0; i < season.length; i++){
-      //System.out.println(season[1].toString());
-    //}
   }
 }
