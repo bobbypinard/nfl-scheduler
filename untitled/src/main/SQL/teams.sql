@@ -1,4 +1,4 @@
-INSERT INTO 
+INSERT INTO
     afc_north (team_id, team_name, stadium_location, stadium)
 VALUES
     (1, "Pittsburgh Steelers", "Pittsburgh, PA", "Acrisure Stadium"),
@@ -6,7 +6,7 @@ VALUES
     (3, "Baltimore Ravens", "Baltimore, MD", "M&T Bank Stadium"),
     (4, "Cleveland Browns", "Cleveland, OH", "Cleveland Browns Stadium");
 
-INSERT INTO 
+INSERT INTO
     afc_east (team_id, team_name, stadium_location, stadium)
 VALUES
     (1, "New England Patriots", "Foxborough, MA", "Gillette Stadium"),
@@ -14,7 +14,7 @@ VALUES
     (3, "Miami Dolphins", "Miami Gardens, FL", "Hard Rock Stadium"),
     (4, "New York Jets", "East Rutherford, NJ", "Metlife Stadium");
 
-INSERT INTO 
+INSERT INTO
     afc_south (team_id, team_name, stadium_location, stadium)
 VALUES
     (1, "Indianapoils Colts", "Indianapolis, IN", "Lucas Oil Stadium"),
@@ -22,7 +22,7 @@ VALUES
     (3, "Jacksonville Jaguars", "Jacksonville, FL", "Everbank Stadium"),
     (4, "Tennessee Titans", "Nashville, TN", "Nissan Stadium");
 
-INSERT INTO 
+INSERT INTO
     afc_west (team_id, team_name, stadium_location, stadium)
 VALUES
     (1, "Denver Broncos", "Denver, CO", "Empower Field"),
@@ -30,7 +30,7 @@ VALUES
     (3, "Los Angeles Chargers", "Inglewood, CA", "SoFi Stadium"),
     (4, "Las Vegas Raiders", "Paradise Nevada", "Allegiant Stadium");
 
-INSERT INTO 
+INSERT INTO
     nfc_north (team_id, team_name, stadium_location, stadium)
 VALUES
     (1, "Green Bay Packers", "Green Bay, WI", "Lambeau Field"),
@@ -38,7 +38,7 @@ VALUES
     (3, "Minnesota Vikings", "Minneapolis, MN", "U.S. Bank Stadium"),
     (4, "Chicago Bears", "Chicago, IL", "Soldier Field");
 
-INSERT INTO 
+INSERT INTO
     nfc_east (team_id, team_name, stadium_location, stadium)
 VALUES
     (1, "Dallas Cowboys", "Arlington, TX", "AT&T Stadium"),
@@ -46,7 +46,7 @@ VALUES
     (3, "New York Giants", "East Rutherford, NJ", "Metlife Stadium"),
     (4, "Washington Commanders", "Landover, MD", "FedEx Field");
 
-INSERT INTO 
+INSERT INTO
     nfc_south (team_id, team_name, stadium_location, stadium)
 VALUES
     (1, "Carolina Panthers", "Charlotte, NC", "Bank of America Stadium"),
@@ -54,7 +54,7 @@ VALUES
     (3, "Atlanta Falcons", "Atlanta, GA", "Mercedez-Benz Stadium"),
     (4, "Tampa Bay Buccaneers", "Tampa, FL", "Raymond James Stadium");
 
-INSERT INTO 
+INSERT INTO
     nfc_west (team_id, team_name, stadium_location, stadium)
 VALUES
     (1, "Seattle Seahwans", "Seattle, WA", "Lumen Field"),
