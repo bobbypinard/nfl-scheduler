@@ -26,6 +26,6 @@ public class Main {
         KC.setTeamName("Kansas City Chiefs");
         KC.setStadiumLocation("Kansas City, MO");
         KC.setStadium("Arrowhead Stadium");
-        System.out.println(KC.toString());
+        System.out.println(KC);
     }
 }
