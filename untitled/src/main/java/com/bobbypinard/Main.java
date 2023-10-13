@@ -21,5 +21,11 @@ public class Main {
             System.out.println(season[i].toString());
         }
 
+        TeamModel KC = new TeamModel();
+        KC.setTeamID(1);
+        KC.setTeamName("Kansas City Chiefs");
+        KC.setStadiumLocation("Kansas City, MO");
+        KC.setStadium("Arrowhead Stadium");
+        System.out.println(KC.toString());
     }
 }
