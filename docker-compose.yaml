@@ -1,7 +1,0 @@
-services:
-  web:
-    build: ./web
-    ports: ["8000:5000"]
-    volumes: ['./web:/app']
-  redis:
-    image: "redis:alpine"

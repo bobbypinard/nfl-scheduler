@@ -1,0 +1,10 @@
+services:
+  web:
+    build:
+      context: ./web
+      dockerfile: ./Dockerfile
+    stop_signal: SIGINT
+    ports: 
+      - '8000:5000'
+  redis:
+    image: "redis:alpine"
