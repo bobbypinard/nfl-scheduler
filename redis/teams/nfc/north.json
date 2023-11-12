@@ -1,0 +1,35 @@
+{
+  "ChicagoBears": {
+    "uuid": "g1h2i3j4-k5l6-4m7n-9o1p-2q3r4s5t6u7v",
+    "teamName": "Chicago Bears",
+    "city": "Chicago, IL",
+    "stadium": "Soldier Field",
+    "conference": "NFC",
+    "division": "North"
+  },
+  "DetroitLions": {
+    "uuid": "g8h9i0j1-k2l3-4m4n-9o0p-2q3r4s5t6u7v",
+    "teamName": "Detroit Lions",
+    "city": "Detroit, MI",
+    "stadium": "Ford Field",
+    "conference": "NFC",
+    "division": "North"
+  },
+  "GreenBayPackers": {
+    "uuid": "h1i2j3k4-l5m6-4n7o-9p1q-2r3s4t5u6v7w",
+    "teamName": "Green Bay Packers",
+    "city": "Green Bay, WI",
+    "stadium": "Lambeau Field",
+    "conference": "NFC",
+    "division": "North"
+  },
+  "MinnesotaVikings": {
+    "uuid": "i1j2k3l4-m5n6-4o7p-9q1r-2s3t4u5v6w7x",
+    "teamName": "Minnesota Vikings",
+    "city": "Minneapolis, MN",
+    "stadium": "U.S. Bank Stadium",
+    "conference": "NFC",
+    "division": "North"
+  }
+}
+

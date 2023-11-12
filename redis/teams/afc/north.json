@@ -1,0 +1,35 @@
+{
+  "BaltimoreRavens": {
+    "uuid": "g1h2i3j4-k5l6-4m7n-9o1p-2q3r4s5t6u7v",
+    "teamName": "Baltimore Ravens",
+    "city": "Baltimore, MD",
+    "stadium": "M&T Bank Stadium",
+    "conference": "AFC",
+    "division": "North"
+  },
+  "CincinnatiBengals": {
+    "uuid": "g8h9i0j1-k2l3-4m4n-9o0p-2q3r4s5t6u7v",
+    "teamName": "Cincinnati Bengals",
+    "city": "Cincinnati, OH",
+    "stadium": "Paul Brown Stadium",
+    "conference": "AFC",
+    "division": "North"
+  },
+  "ClevelandBrowns": {
+    "uuid": "h1i2j3k4-l5m6-4n7o-9p1q-2r3s4t5u6v7w",
+    "teamName": "Cleveland Browns",
+    "city": "Cleveland, OH",
+    "stadium": "FirstEnergy Stadium",
+    "conference": "AFC",
+    "division": "North"
+  },
+  "PittsburghSteelers": {
+    "uuid": "i1j2k3l4-m5n6-4o7p-9q1r-2s3t4u5v6w7x",
+    "teamName": "Pittsburgh Steelers",
+    "city": "Pittsburgh, PA",
+    "stadium": "Heinz Field",
+    "conference": "AFC",
+    "division": "North"
+  }
+}
+
