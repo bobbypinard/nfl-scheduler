@@ -8,13 +8,9 @@ with open('./teams/afc/west.json') as file:
     afc_west = json.load(file)
     
 def shuffle(dict):
-    d = []
     placeholder = 0
-    for uuid in dict.items():
-        d.append(uuid)
-
-    shuffled_array = d
-    for i in range(len(d) -1, -1, -1):
+    shuffled_array = dict
+    for i in range(len(dict) -1, -1, -1):
         random_int = random.randint(0, i)
         placeholder = shuffled_array[i]
         shuffled_array[i] = shuffled_array[random_int]
@@ -23,14 +19,13 @@ def shuffle(dict):
     return shuffled_array
 
 def get_games(dict):
-    wiik = []
+    week = []
     count = 0
-    val = shuffle(afc_west)
     for team_info in dict.items():
-        team1 = afc_west[val[count]]
-        wiik.append(team1)
+        week.append(team_info[0])
         count += 1
-    return week
+    val = shuffle(week)
+    return val
 
 @app.route('/')
 def home():
