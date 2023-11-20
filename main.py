@@ -18,6 +18,12 @@ def shuffle(dict):
 
     return shuffled_array
 
+def uuid_to_name(uuids):
+    names = []
+    for uuid in uuids:
+        names.append(afc_west[uuid]['teamName'])
+    return names
+
 def get_games(dict):
     week = []
     count = 0
@@ -25,7 +31,8 @@ def get_games(dict):
         week.append(team_info[0])
         count += 1
     val = shuffle(week)
-    return val
+    value = uuid_to_name(val)
+    return value
 
 @app.route('/')
 def home():
